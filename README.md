@@ -17,7 +17,8 @@ We currently have the following file structure:
  - [Official source code repo](https://github.com/openstate/raadsleden-scraper/)
 
 ## Install and usage
- - Add the sitemaps of the targeted websites to the directory '/sitemaps/extracted/'  
+ - Add the sitemaps of the targeted websites to the directory '/sitemaps/extracted/'
+    -  We have used the tool [python-sitemap](https://github.com/Bash-/python-sitemap) with a rate limiter to build sitemaps
  - Optional: configure the keywords for pattern recognition in 'sitemap_url_pattern_finder.py' 
  - Run fetch_members.py for starting the matching algorithms
  - The '/pickles/files/' directory contains the result files per municipality
